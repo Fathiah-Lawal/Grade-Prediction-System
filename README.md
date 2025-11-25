@@ -1,4 +1,3 @@
-=======
 # Grade Prediction System
 
 A machine learning-based grade prediction system built with Python and Streamlit for deployment.
@@ -135,17 +134,8 @@ streamlit run app2.py.py
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 For questions or support, please contact [fatiaholajumoke@gmail.com]
 
-## Acknowledgments
 
-- Thanks to the academic institutions providing data insights
-- Built with Streamlit for web interface
-- Machine learning models powered by scikit-learn
->>>>>>> master
