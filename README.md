@@ -43,56 +43,6 @@ grade_prediction_streamlit/
 └── requirements.txt      # Python dependencies
 ```
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Fathiah-Lawal/grade_prediction_streamlit.git
-cd grade_prediction_streamlit
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Running the Application
-
-1. Start the Streamlit application:
-```bash
-streamlit run app2.py
-```
-
-2. Open your web browser and navigate to `http://localhost:8501`
-
-3. Use the interface to:
-   - Input student information
-   - Get grade predictions
-   - View prediction confidence
-   - Analyze results
-
-### Training Models
-
-To retrain the models with new data:
-```bash
-python train_model.py
-```
-
-### Data Augmentation
-
-To augment the training data:
-```bash
-python augment_data.py
-```
-
 ## Model Information
 
 The system uses multiple machine learning models:
@@ -110,32 +60,7 @@ The system considers various factors for grade prediction:
 - Participation metrics
 - Other relevant academic indicators
 
-## Deployment
-
-### Streamlit Cloud
-
-1. Push your code to GitHub
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-3. Connect your GitHub repository
-4. Deploy the app
-
-### Local Deployment
-
-For local deployment, simply run:
-```bash
-streamlit run app2.py.py
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## Contact
-
 For questions or support, please contact [fatiaholajumoke@gmail.com]
 
 
